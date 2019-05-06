@@ -126,7 +126,7 @@
     $('#diastolicbp').html(p.diastolicbp);
     $('#ldl').html(p.ldl);
     $('#hdl').html(p.hdl);
-    $('#tokentest').text($window.sessionStorage.token);
+    $('#tokentest').text(window.sessionStorage.token);
   };
 
 })(window);
